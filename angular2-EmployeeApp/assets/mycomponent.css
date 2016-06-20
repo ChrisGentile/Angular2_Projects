@@ -1,0 +1,16 @@
+.success {
+  color: blue;
+  font-size: 300%; }
+
+.fail {
+  color: red;
+  font-size: 300%; }
+
+.third, .test {
+  font-size: 600%;
+  font-family: "Marker Felt"; }
+
+.pink, .test {
+  color: pink; }
+
+/*# sourceMappingURL=mycomponent.css.map */

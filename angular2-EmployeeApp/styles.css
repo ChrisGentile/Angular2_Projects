@@ -1,0 +1,62 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+body {
+  margin: 2em;
+}
+
+.employees{
+  list-style-type: none;
+  width: 15em;
+  margin: 0 0 2em 0;
+}
+
+.badge{
+  background-color: #336699;
+  color: whitesmoke;
+}
+.employees li{
+  font-family: 'arial ';
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  margin: .5em;
+  padding: .3em 0;
+  border-radius: 4px;
+  background-color: #EEE;
+  height: 1.6em;
+}
+
+.employees li:hover{
+  background-color: #369;
+  color: whitesmoke;
+}
+
+.container{
+  border: solid 1px black;
+  width: 24em;
+  padding: 1em;
+  float: left;
+  position: absolute;
+
+}
+.hiddenContainer{
+  padding: 10px 10px 10px 10px;
+  float: right;
+  margin-right: 10em;
+  margin-top: 10em;
+  border: solid 1px black;
+  font-family: "Arial ";
+  font-size: 150%;
+  text-align: left;
+
+}
+
+
+ /*
+  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+  * for the full set of master styles used by the documentation samples
+  */
+
